@@ -1,0 +1,55 @@
+# Version control folders
+.hg
+.git
+.svn
+.CVS
+.cvs
+
+# mbed Tools
+BUILD
+build
+.build
+.export
+
+# mbed folder with dependecies
+mbed-os
+# local mbed settings
+mbed_settings.py*
+
+# Online IDE caches
+.msub
+.meta
+.ctags*
+
+# uVision project files
+*.uvproj
+*.uvopt
+# Eclipse project files
+*.project
+*.cproject
+*.launch
+
+# IAR project files
+*.ewp",
+*.eww",
+# GCC make
+/Makefile
+Debug
+# HTML files
+*.htm",
+
+# Python
+*.py[cod]",
+__pycache__
+
+# QT creator files
+CMakeLists.txt.user
+*.files
+*.includes
+*.config
+*.creator
+*.creator.user
+
+# JetBrains
+.idea
+

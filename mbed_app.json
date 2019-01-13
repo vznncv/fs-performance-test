@@ -1,0 +1,33 @@
+{
+  "config": {
+    "sd_mosi": {
+      "help": "MOSI pin of sd card",
+      "value": "PB_15"
+    },
+    "sd_miso": {
+      "help": "MISO pin of sd card",
+      "value": "PB_14"
+    },
+    "sd_clk": {
+      "help": "SCK pin of sd card",
+      "value": "PB_13"
+    },
+    "sd_cs": {
+      "help": "CS pin of sd card",
+      "value": "PB_12"
+    },
+    "sd_freq": {
+      "help": "SPI interface frequency (25 MHz is hard code SD card driver limit in the mbed-os)",
+      "value": 25000000
+    }
+  },
+  "macros": [],
+  "target_overrides": {
+    "*": {
+      "platform.stdio-baud-rate": 115200,
+      "target.components_add": [
+        "SD"
+      ]
+    }
+  }
+}
